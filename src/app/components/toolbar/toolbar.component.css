@@ -1,0 +1,64 @@
+/* nav */
+.navegacion {
+    width: 100%;
+    background-color: #c0d6df;
+    text-align: center;
+  }
+  
+  .navegacion ul {
+    list-style: none;
+  }
+  
+  .menu li {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .menu li a {
+    display: block;
+    padding: 15px 20px;
+    color: black;
+    text-decoration: none;
+    background-color: rosybrown;
+    border-radius: 10px;
+    margin: 10px 10px;
+  }
+  
+  .menu li a:hover {
+    color: #023e8a;
+    background-color: white;
+  }
+  
+  .menu li:hover .submenu {
+    display: block;
+  }
+  
+  .submenu {
+    position: absolute;
+    background: #c0d6df;
+    width: 100%;
+    display: none;
+    z-index: 10;
+    padding: 0rem 0rem;
+    margin: 0rem 0rem;
+    text-align: center;
+  }
+  
+  .submenu li a {
+    display: block;
+    padding: 15px 20px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .submenu li a:hover {
+    color: #023e8a;
+    background-color: white;
+  }
+  
+  .menu-activo.menu li a {
+    background-color: white;
+    border-top: groove 0.30rem #023e8a;
+    padding-bottom: 0rem;
+  }
+

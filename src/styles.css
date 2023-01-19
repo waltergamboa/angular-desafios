@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+/* resetear */
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+/* elementos */
+html {
+    font-size: 62.5%;
+    /* 1 rem = 10px */
+  }
+  
+html body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #ffffff;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+
